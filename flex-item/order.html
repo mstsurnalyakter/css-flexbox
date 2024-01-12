@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order</title>
+    <style>
+
+        .order{
+            display: flex;
+            background-color: dodgerblue;
+            align-items: stretch;
+        }
+
+        .item{
+            background-color: aliceblue;
+            width: 100px;
+            margin: 10px;
+            padding: 20px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>The Order Property</h1>
+    <p>
+        The <mark> order </mark> specifies the order of the flex items.
+    </p>
+
+    <section class="order">
+        <section class="item" style="order:3 ">1</section>
+        <section class="item" style="order: 4">2</section>
+        <section class="item" style="order:1 ">3</section>
+        <section class="item" style="order: 2">4</section>
+    </section>
+
+</body>
+</html>
