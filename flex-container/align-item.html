@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>align-item</title>
+    <style>
+        .align-item1, .align-item2,.align-item3,.align-item4{
+            display: flex;
+            height: 200px;
+            background-color: dodgerblue;
+        }
+
+        .align-item1{
+               align-items: center;
+        }
+
+        .align-item2{
+            align-items: flex-start;
+        }
+
+        .align-item3{
+            align-items: flex-end;
+        }
+
+        .align-item4{
+            align-items: stretch;
+        }
+
+        .item{
+            background-color: #f1f1f1;
+            width: 100px;
+            margin: 20px;
+            padding: 30px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>The align-item property</h1>
+    <p>
+        The align-item property used to align the flex items.
+    </p>
+    <p>
+        In this examples we use a 200 pixels hight container, to better demonstrate the align-items property
+    </p>
+
+
+     <marquee behavior="" direction="">The center value align the flex items in the middle of the container</marquee>
+       <section class="align-item1">
+        <section class="item">1</section>
+        <section class="item">2</section>
+        <section class="item">3</section>
+        <section class="item">12</section>
+    </section>
+
+     <marquee behavior="" direction="">The flex-start value align the flex items at the top of the container .</marquee>
+       <section class="align-item2">
+        <section class="item">1</section>
+        <section class="item">2</section>
+        <section class="item">3</section>
+        <section class="item">12</section>
+    </section>
+
+     <marquee behavior="" direction="">The flex-end value align the flex items at the bottom of the container.</marquee>
+       <section class="align-item3">
+        <section class="item">1</section>
+        <section class="item">2</section>
+        <section class="item">3</section>
+        <section class="item">12</section>
+    </section>
+
+     <marquee behavior="" direction="">The stretch value stretch the flex items to fill the container(this is default)</marquee>
+       <section class="align-item4">
+        <section class="item">1</section>
+        <section class="item">2</section>
+        <section class="item">3</section>
+        <section class="item">12</section>
+    </section>
+
+</body>
+</html>
