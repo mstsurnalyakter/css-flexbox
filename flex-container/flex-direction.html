@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex direction property</title>
+    <style>
+
+        body > section{
+            margin-bottom: 20px;
+        }
+
+        .flex-direction-column1{
+            display: flex;
+            background-color: dodgerblue;
+            flex-direction: column;
+        }
+        .flex-direction-column2{
+            display: flex;
+            background-color: dodgerblue;
+            flex-direction: column-reverse;
+        }
+
+        .flex-direction-column3{
+            display: flex;
+            flex-direction: row;
+            background-color: dodgerblue;
+        }
+
+        .flex-direction-column4{
+            display: flex;
+            flex-direction: row-reverse;
+            background-color: dodgerblue;
+        }
+
+        .item{
+            background-color: #f1f1f1;
+            width: 100px;
+            margin: 10px;
+            padding: 20px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+       <marquee behavior="" direction="">The column value stack the flex items vertically (from top to bottom)</marquee>
+    <section class="flex-direction-column1">
+        <section class="item">1</section>
+        <section class="item">2</section>
+        <section class="item">3</section>
+    </section>
+
+    <marquee behavior="" direction="">The column reverse value stack the flex items vertically (but bottom to top)</marquee>
+    <section class="flex-direction-column2">
+        <section class="item">1</section>
+        <section class="item">2</section>
+        <section class="item">3</section>
+    </section>
+
+    <marquee behavior="" direction="">The row value stacks the flex items horizontally (from left to right)</marquee>
+    <section class="flex-direction-column3">
+        <section class="item">1</section>
+        <section class="item">2</section>
+        <section class="item">3</section>
+    </section>
+
+    <marquee behavior="" direction="">The row reverse value stacks the flex items horizontally (but right to left)</marquee>
+    <section class="flex-direction-column4">
+        <section class="item">1</section>
+        <section class="item">2</section>
+        <section class="item">3</section>
+    </section>
+</body>
+</html>
