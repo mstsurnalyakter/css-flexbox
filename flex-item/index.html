@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex items</title>
+    <style>
+        body > section{
+            margin-bottom: 20px;
+        }
+        .flex-container{
+            display: flex;
+            background-color: rgb(237, 232, 232);
+        }
+
+        .item{
+            background-color: dodgerblue;
+            color: #fff;
+            font-size: 30px;
+            width: 100px;
+            margin: 20px;
+            padding: 30px;
+            text-align: center;
+        }
+
+        h1,h2,p{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Flex item</h1>
+    <p>The direct child element of a flex container automatically become flexible items.</p>
+    <p>
+        The element above represent four dodgerblue flex items inside a grey flex container.
+    </p>
+
+    <section class="flex-container">
+        <section class="item">1</section>
+        <section class="item">2</section>
+        <section class="item">3</section>
+        <section class="item">4</section>
+    </section>
+
+    <mark>All direct children of a flexible container become flexible items.</mark>
+
+    <h2>The flex item properties are:</h2>
+    <ul>
+        <li>Order</li>
+        <li>flex-grow </li>
+        <li>flex-shrink </li>
+        <li>flex-basis </li>
+        <li>flex </li>
+        <li>align-self</li>
+    </ul>
+</body>
+</html>
