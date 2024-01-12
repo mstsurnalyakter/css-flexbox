@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Flexbox</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        .flex-container{
+            display: flex;
+            background-color: dodgerblue;
+        }
+
+        .item{
+            background-color: #f1f1f1;
+            width: 100px;
+            margin: 10px;
+            padding: 20px;
+            font-size: 30px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Create a Flex Container</h1>
+    <section class="flex-container">
+        <section class="item">1</section>
+        <section class="item">2</section>
+        <section class="item">3</section>
+    </section>
+    <mark>A Flexbox model must have a parent element with display property set to flex</mark>
+</body>
+</html>
