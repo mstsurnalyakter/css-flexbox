@@ -1,0 +1,37 @@
+.container{
+    width: 80%;
+    margin: 0 auto;
+    min-height: 70px;
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2%;
+    margin-bottom: 20px;
+}
+
+.container > .item{
+    background-color:#f1f1f1 ;
+    width: 50px;
+
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+
+}
+
+.container2{
+    background-color: dodgerblue;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+
+.container2 > section{
+    background-color: #f1f1f1;
+    width: 100px;
+    line-height: 75px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+}
