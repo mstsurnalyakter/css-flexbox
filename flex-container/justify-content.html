@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>justify-content</title>
+    <style>
+
+        body > section{
+            margin-bottom: 20px;
+        }
+        h1,p{
+            text-align: center;
+        }
+
+         .justify-content1, .justify-content2, .justify-content3,.justify-content4,.justify-content5{
+              display: flex;
+            background-color: dodgerblue;
+         }
+
+        .justify-content1{
+            justify-content: center;
+        }
+        .justify-content2{
+            justify-content:flex-start;
+        }
+        .justify-content3{
+            justify-content:flex-end;
+        }
+
+        .justify-content4{
+            justify-content:space-around;
+        }
+
+        .justify-content5{
+            justify-content: space-between;
+        }
+        .item{
+            background-color: #f1f1f1;
+            width: 100px;
+            margin: 10px;
+            padding: 30px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>The justify-content property</h1>
+    <p>
+        The justify-content property used to align the flex items.
+    </p>
+
+    <marquee behavior="" direction="">The center value align the flex items at the center of the container</marquee>
+       <section class="justify-content1">
+        <section class="item">1</section>
+        <section class="item">2</section>
+        <section class="item">3</section>
+        <section class="item">12</section>
+    </section>
+
+    <marquee behavior="" direction="">The flex-start value align the flex items at the beginning of the container(this is default)</marquee>
+       <section class="justify-content2">
+        <section class="item">1</section>
+        <section class="item">2</section>
+        <section class="item">3</section>
+        <section class="item">12</section>
+    </section>
+
+       <marquee behavior="" direction="">The flex-end value align the flex items at the end of the container.</marquee>
+       <section class="justify-content3">
+        <section class="item">1</section>
+        <section class="item">2</section>
+        <section class="item">3</section>
+        <section class="item">12</section>
+    </section>
+
+
+       <marquee behavior="" direction="">The space-around value display the flex item with space before , between and after the lines</marquee>
+
+       <section class="justify-content4">
+        <section class="item">1</section>
+        <section class="item">2</section>
+        <section class="item">3</section>
+        <section class="item">12</section>
+    </section>
+
+       <marquee behavior="" direction="">The space-between value the display the flex items with space between lines</marquee>
+       <section class="justify-content5">
+        <section class="item">1</section>
+        <section class="item">2</section>
+        <section class="item">3</section>
+        <section class="item">12</section>
+    </section>
+
+
+</body>
+</html>
