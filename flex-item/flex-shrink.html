@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex-grow</title>
+    <style>
+        .flex-shrink{
+            display: flex;
+            background-color: aliceblue;
+
+        }
+        .item{
+            background-color: dodgerblue;
+            width: 100px;
+            margin: 10px;
+            padding: 30px;
+            text-align: center;
+            font-size: 30px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>The flex-shrink Property</h1>
+    <marquee behavior="" direction="">The flex-shrink property specifies how much a flex item will shrink relative to the rest of the flex items.</marquee>
+    <p>The value must be a number, default value is 0.</p>
+    <p>Make the third flex item grow eight times faster than the other flex items:</p>
+      <section class="flex-shrink">
+        <section class="item" style="flex-shrink:0">1</section>
+        <section class="item">2</section>
+        <section class="item">3</section>
+        <section class="item">4</section>
+    </section>
+
+</body>
+</html>
