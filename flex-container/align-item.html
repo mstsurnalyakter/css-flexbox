@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>align-item</title>
     <style>
-        .align-item1, .align-item2,.align-item3,.align-item4{
+        .align-item1, .align-item2,.align-item3,.align-item4,.align-item5{
             display: flex;
             height: 200px;
             background-color: dodgerblue;
@@ -25,6 +25,10 @@
 
         .align-item4{
             align-items: stretch;
+        }
+
+        .align-item5{
+            align-items: baseline;
         }
 
         .item{
@@ -72,6 +76,14 @@
 
      <marquee behavior="" direction="">The stretch value stretch the flex items to fill the container(this is default)</marquee>
        <section class="align-item4">
+        <section class="item">1</section>
+        <section class="item">2</section>
+        <section class="item">3</section>
+        <section class="item">12</section>
+    </section>
+
+     <marquee behavior="" direction="">The baseline value aligns the flex items such as their baselines aligns.</marquee>
+       <section class="align-item5">
         <section class="item">1</section>
         <section class="item">2</section>
         <section class="item">3</section>
