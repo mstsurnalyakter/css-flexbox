@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>align-content</title>
+    <style>
+
+        body > section{
+            margin-bottom: 20px;
+        }
+        .flex-content1,.flex-content2,.flex-content3,.flex-content4,.flex-content5{
+            display: flex;
+            height: 600px;
+            overflow: scroll;
+            background-color: dodgerblue;
+            flex-wrap: wrap;
+        }
+
+
+
+        .flex-content1{
+             align-content: space-between;
+        }
+
+        .flex-content2{
+             align-content: space-around;
+        }
+
+        .flex-content3{
+            align-content: stretch;
+        }
+
+        .flex-content4{
+            align-content: center;
+        }
+
+        .flex-content5{
+            align-content: flex-start;
+        }
+
+        .item{
+            width: 100px;
+            background-color: #f1f1f1;
+            margin: 10px;
+            padding: 30px;
+            text-align: center;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>The align-content property align the flex line.</h1>
+    <p>
+        In these examples we use a 600 pixels  high container, with the flex-wrap property set to wrap, to better demonstrate the align-content property
+    </p>
+
+      <marquee behavior="" direction="">The space-between value display the flex lines with equal space between them</marquee>
+    <section class="flex-content1">
+        <section class="item">1</section>
+        <section class="item item2">2</section>
+        <section class="item">3</section>
+        <section class="item">4</section>
+        <section class="item">5</section>
+        <section class="item">6</section>
+        <section class="item">7</section>
+        <section class="item">8</section>
+        <section class="item">9</section>
+        <section class="item">10</section>
+        <section class="item">11</section>
+        <section class="item">12</section>
+    </section>
+      <marquee behavior="" direction="">The space-around value display the flex lines with space before, between and after them.</marquee>
+    <section class="flex-content2">
+        <section class="item">1</section>
+        <section class="item item2">2</section>
+        <section class="item">3</section>
+        <section class="item">4</section>
+        <section class="item">5</section>
+        <section class="item">6</section>
+        <section class="item">7</section>
+        <section class="item">8</section>
+        <section class="item">9</section>
+        <section class="item">10</section>
+        <section class="item">11</section>
+        <section class="item">12</section>
+    </section>
+
+          <marquee behavior="" direction="">The stretch value stretches the flex lines to take up the remaining space (this is default)</marquee>
+    <section class="flex-content3">
+        <section class="item">1</section>
+        <section class="item item2">2</section>
+        <section class="item">3</section>
+        <section class="item">4</section>
+        <section class="item">5</section>
+        <section class="item">6</section>
+        <section class="item">7</section>
+        <section class="item">8</section>
+        <section class="item">9</section>
+        <section class="item">10</section>
+        <section class="item">11</section>
+        <section class="item">12</section>
+    </section>
+          <marquee behavior="" direction="">The center value display the flex lines in the middle of the container.</marquee>
+    <section class="flex-content4">
+        <section class="item">1</section>
+        <section class="item item2">2</section>
+        <section class="item">3</section>
+        <section class="item">4</section>
+        <section class="item">5</section>
+        <section class="item">6</section>
+        <section class="item">7</section>
+        <section class="item">8</section>
+        <section class="item">9</section>
+        <section class="item">10</section>
+        <section class="item">11</section>
+        <section class="item">12</section>
+    </section>
+
+
+          <marquee behavior="" direction="">The flex-start value display the flex at the start of the container.</marquee>
+    <section class="flex-content5">
+        <section class="item">1</section>
+        <section class="item item2">2</section>
+        <section class="item">3</section>
+        <section class="item">4</section>
+        <section class="item">5</section>
+        <section class="item">6</section>
+        <section class="item">7</section>
+        <section class="item">8</section>
+        <section class="item">9</section>
+        <section class="item">10</section>
+        <section class="item">11</section>
+        <section class="item">12</section>
+    </section>
+
+          <marquee behavior="" direction="">The flex-end value displays the flex lines at the end of the container</marquee>
+    <section class="flex-content6">
+        <section class="item">1</section>
+        <section class="item item2">2</section>
+        <section class="item">3</section>
+        <section class="item">4</section>
+        <section class="item">5</section>
+        <section class="item">6</section>
+        <section class="item">7</section>
+        <section class="item">8</section>
+        <section class="item">9</section>
+        <section class="item">10</section>
+        <section class="item">11</section>
+        <section class="item">12</section>
+    </section>
+
+
+
+</body>
+</html>
