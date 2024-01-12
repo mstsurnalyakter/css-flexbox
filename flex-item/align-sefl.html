@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>align-self</title>
+    <style>
+        .align-self{
+            display: flex;
+            background-color: aliceblue;
+
+        }
+        .item{
+            background-color: dodgerblue;
+            width: 100px;
+            margin: 10px;
+            padding: 30px;
+            text-align: center;
+            font-size: 30px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>The align-self Property</h1>
+    <marquee behavior="" direction="">The align-self property specifies the alignment for the selected item inside the flexible container.
+       The align-self property overrides the default alignment set by the container align-items.
+    </marquee>
+    <p>
+
+    </p>
+
+
+      <section class="align-self">
+        <section class="item">1</section>
+        <section class="item" style="flex:0 0 200px">2</section>
+        <section class="item" style="align-self:center">3</section>
+        <section class="item">4</section>
+    </section>
+
+</body>
+</html>
